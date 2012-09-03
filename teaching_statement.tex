@@ -1,0 +1,204 @@
+\documentclass[10pt]{memoir}
+
+% based on kieran healy's memoir modifications
+\usepackage{mako-mem}
+\chapterstyle{article-3}
+\pagestyle{memo}
+
+\usepackage{ucs}
+\usepackage[utf8x]{inputenc}
+
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage[garamond]{mathdesign}
+
+\usepackage[letterpaper,left=1.2in,right=1.2in,top=1.2in,bottom=1.2in]{geometry}
+
+% packages i use in essentially every document
+\usepackage{graphicx}
+\usepackage{enumerate}
+
+% packages i use in many documents but leave off by default
+% \usepackage{amsmath, amsthm, amssymb}
+% \usepackage{dcolumn}
+% \usepackage{endfloat}
+
+% import and customize urls
+\usepackage[usenames,dvipsnames]{color}
+\usepackage[breaklinks]{hyperref}
+
+\hypersetup{colorlinks=true, linkcolor=Black, citecolor=Black, filecolor=Blue,
+    urlcolor=Blue, unicode=true}
+
+% add bibliographic stuff 
+\usepackage[round]{natbib}
+\def\citepos#1{\citeauthor{#1}'s (\citeyear{#1})}
+\def\citespos#1{\citeauthor{#1}' (\citeyear{#1})}
+
+% import vc stuff after running `make vc`: \input{vc} \pagestyle{kjhgit}
+
+\newenvironment{enumerate*}%
+  {\begin{enumerate}%
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{0pt}}%
+  {\end{enumerate}}
+
+\begin{document}
+
+\setlength{\parskip}{4.5pt}
+
+\baselineskip 14.5pt
+
+\title{Teaching Statement}
+\author{Benjamin Mako Hill}
+\date{}
+
+% \published{\textsc{\textcolor{BrickRed}{This document is an
+% unpublished draft.\\ Please do not distribute or cite without
+% permission.}}}
+
+\maketitle
+
+When I was eighteen and frusterated with high school, I took extra
+classes, graduated early, and moved to Ethiopia. A year later, I
+matriculated at Hampshire College: an experimental institution without
+grades, tests, or majors. I chose Hampshire becase I cared deeply
+about a personal connection to learning that I felt more traditional
+institutions would not afford.
+
+Today, I am passioante about teaching and I take pride in teaching
+well. However, as someone once driven away from traditional higher
+education, I also have a healthy ambivalence about my role at the
+front of the lecture hall and seminar table and strong feelings about
+how to help students learn.  Before each lecture, I reflect on the
+total human-hours my teaching consumes. In every class meeting, my
+students give me dozens, even hundreds, of hours of their attention. I
+strive to never waste it.
+
+I have noted that graduating PhD students have spent most of their
+lives in apprentice-like relationships. From their first day of grade
+school to their dissertation defense, students learn eveything from
+reading and arithmetic to sociological theory and multi-level
+statistical modeling from teachers who have and use that knowledge
+themselves.  ``I know something that I find useful,'' a teacher might
+say, ``and I want my student to be like me.''
+
+In much of higher education -- and in graduate and professional
+teaching in particular -- this relationship breaks down for the first
+time in most students' and teachers' lives. In business schools, where
+I teach most often, lectures are given by professors trained as
+academic sociologists, economists, and psychologists.  To say that few
+business school students have an interest in becoming social
+scientists would be understatement. I have seen how a failure to
+recognize this dynamic can lead to a lack of respect and a lack of
+connection between teachers and students seen as, ``the folks who pay
+the bills.''
+
+But this setting has also shown me that teaching that confronts, and
+takes advantage of, this dynamic can lead to transformative learning
+experiences. Successful teaching across intellectual domains goes
+beyond the simple reproduction of skills and knowledge and becomes a
+process of adapation and instantiation of knowledge in the context of
+students' personal experiences. I understand that most of my students
+do not want to be a researcher like me. I believe that in spite of
+this unusual and challenging relationship, and \emph{because of it}, I
+can teach students in ways that suprise, connect, and enrich.
+
+\section{Teaching Experience}
+
+Over the course of graduate school, I have learned to teach from my
+mentors and have put this philosophy into practice in lectures and
+seminars to MBAs, engineers, executives, undergraduates, and Masters
+of Science students.
+
+Over the last three years, I have served as the teaching assistant for
+Professor Eric von Hippel's lecture courses on innovation where I have
+worked closely with students on the design and evaluation of their
+course projects. In these classes, I have developed, delivered, and
+refined a series of 90 minutes lectures as a guest lecturer in those
+classes. In particular, I have developed a lecture on Internet-based
+user innovation communities based around the case of consumer
+``hacking'' of Canon cameras and a practical lecture on how to attract
+participants to online communities.
+
+After positive evaluations from students in these course, I have been
+invited to give regular lectures in MIT's Executive Education and
+Visiting MBA programs. These lectures have focused on fundemental
+introduction to concepts on innovation management and user communities
+and on practical methods for putting these into action including lead
+user methods, broadcast search, and the construction of user
+communities.
+
+In addition to experience in the lecture hall, I have also run a
+series of seminars for smaller groups of graduate students. Working
+with Tom Malone at the Center for Collective Intelligence, I
+coordinated an interdisciplinary seminar on collective
+intelligence. Working with Chris Csikszentmihályi, I organized and ran
+a graduate seminar on Free, Libre and Open Source
+Software.
+
+Outside of organizing my own seminars, I have taught in a number of
+seminars at MIT Sloan, the MIT Media Lab, the MIT Program on
+Comparative Media Studies, Harvard Law School, the Stanford Design
+School, and elsewhere. Since 2011, I have also coordinated a reading
+group on empirical research into online cooperation at the Berkman
+Center for Intenet and Society at Harvard.
+
+\section{Mentoring}
+
+Of course, not all of teaching is unlike apprenticeship and I have
+also enjoyed my experience as a mentor to developing scholars and
+researchers. I have had the pleasure of mentoring several
+undergraduates at MIT through the Undergraduate Research Opportunities
+Program. These students worked with me on both a full-time basis over
+the summer and in a part-time capacity over the academic year giving
+me experience with day-to-day management and more hands-off
+relationships.
+
+Additionally, I have served as an external advisor to two Masters
+degree students. I advised and evaluated one Masters Thesis on
+technology design and in am currently advising a Masters thesis
+studying a large free software community. In both cases, I have
+enjoyed meeting regularly and engaging with students over the life of
+their research projects.
+
+\section{Example Courses}
+
+Undergraduate ---
+
+\begin{enumerate*}
+\item \emph{Innovation in the Internet Age}: An introduction to the
+  theory and practice of innovation management. Topics include
+  traditional firm-based innovation as well innovation by hackers,
+  user communities, free and open source software, and lead users.
+\item \emph{Quantitative Research Methods}: An introductory class on
+  applied statistics. Topics include basic stastical methods up to,
+  and including, linear regression with programming excercises using
+  real data.
+\item \emph{Computer Mediated Communication}: An overview of practical
+  and theoretical issues related to computer-mediated
+  communication. The class focuses on analyses of pratice but also
+  incorporate readings and lectures on system implementation and
+  design.
+\end{enumerate*}
+
+Graduate ---
+\begin{enumerate*}
+\item \emph{Topics in Peer Production}: Seminar on foundational work
+  as well as recent advances in the study and support of free and open
+  source software, wikis, and remixing communities.
+\item \emph{Research Methods for ``Big Data''}: An introduction to
+  statistical methods and tools for finding and manipulating very
+  large datasets. Topics include network analysis, analysis of
+  unstructured text, and programming for massively parallel computing
+  systems.
+\item \emph{Social Computing}: The theory, analysis, and design of
+  large scale, computer mediated social systems. Final projects will
+  challenge students to create a new systems or execute a study of an
+  existing system.
+\end{enumerate*}
+
+
+
+\end{document}
+
